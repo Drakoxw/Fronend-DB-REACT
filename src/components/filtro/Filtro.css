@@ -1,0 +1,21 @@
+#filtroComp {
+  background-color: #e42525;
+  max-width: min-content;
+  margin: 1rem auto;
+  margin-bottom: 1rem;
+  box-shadow: 2px 4px 2px 2px rgba(0, 0, 0, 0.7);
+}
+.form-group {
+  overflow: hidden;
+  display: flex;
+  overflow-x: auto;
+}
+.filtro1 {
+  margin: 0;
+  padding: 2vh;
+  overflow: hidden;
+}
+.filtro2 {
+  width: 80px;
+  min-width: 6rem;
+}

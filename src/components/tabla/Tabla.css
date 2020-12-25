@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    margin: 2rem 0;
+    width: 100%;
+    overflow-y: auto;
+    overflow-x: auto;
+}
+table{
+    margin: auto;
+    max-width: 95%;
+    text-align: left;
+    border-collapse: collapse;
+}
+.table-dark {
+    color: #fff;
+    background-color: #343a40;
+}
+th, td {
+    padding: 1rem;
+    overflow-x: auto;
+}
+thead {
+    font-size: 110%;
+    background-color: #47bb4f;
+}
+.reserv{
+    background-color: #3c95f5;
+}
+tr:nth-child(even) {
+    background-color: #5d5f63;
+}

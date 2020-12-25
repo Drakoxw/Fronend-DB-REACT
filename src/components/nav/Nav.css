@@ -1,0 +1,72 @@
+.bg-dark {
+  background-color: #343a40!important;
+}
+.imagen {
+  width: 300px;
+  margin-bottom: 2rem;
+}
+a{
+  font-size: 1.5rem;
+  color: white;
+  padding: 0.4rem;
+}
+@media (max-width: 600px) {
+  a {
+    font-size: 0.9rem;
+  }
+  .demo {
+    margin-bottom: .5rem;
+    color: silver;
+  }
+
+}
+a:hover{
+  color: rgba(206, 209, 12, 0.8);
+  cursor: pointer;
+  font-size: 1.75rem;
+}
+  
+
+@media (max-width: 925px) {
+  a:hover{
+    font-size: 1.4rem;
+  }
+  .navbar-collapse {
+    margin-right: 0px;
+    margin-left: auto;
+  }
+}
+@media (max-width: 925px) {
+  a:hover{
+    font-size: 1rem;
+  }
+}
+
+.navbar {
+  position: relative;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: .5rem 1rem;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.nav-item {
+  text-decoration: none;
+}
+.demo {
+  margin-right: auto;
+  color: azure;
+}
+.navbar-nav ul {
+  display: flex;
+}
+.navbar-nav li, a {
+  list-style-type: none;
+  text-decoration: none;
+}

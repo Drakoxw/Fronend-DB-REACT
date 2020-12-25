@@ -1,0 +1,26 @@
+.btn-group {
+  display: flex;
+  justify-content: flex-start;
+}
+.btn {
+  color: white;
+}
+.btn-info {
+  background-color: green;
+}
+.btn-danger {
+  background-color: red;
+}
+.btn-error {
+  padding: 4px;
+  border: yellow solid 4px;
+  background-color: red;
+}
+.btn-buscar {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+.btn-nuevo {
+  background-color: #007bff;
+  border-color: #007bff;
+}
